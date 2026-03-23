@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.vscode
+.DS_Store
+.env
+.env.local
+expert-marriage-day/node_modules
