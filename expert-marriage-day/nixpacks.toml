@@ -1,8 +1,14 @@
 [providers]
 [providers.node]
 
+[properties]
+node-version = "18"
+
 [phases.build]
-cmds = ["echo 'Static HTML — nothing to build'"]
+cmds = [
+  "npm install",
+  "echo 'Build complete - static site'"
+]
 
 [start]
-cmd = "npx --yes serve . -p ${PORT:-3000} -s"
+cmd = "npm start"
