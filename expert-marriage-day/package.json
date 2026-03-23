@@ -1,0 +1,17 @@
+{
+  "name": "lauane-carolina-wedding",
+  "version": "1.0.0",
+  "description": "Lauane & Carolina · Wedding Day · 28.03.2026",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -p ${PORT:-3000} -s",
+    "dev": "npx serve . -p 3000 -s"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

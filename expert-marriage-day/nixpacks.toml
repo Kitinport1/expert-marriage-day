@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["echo 'Static HTML — nothing to build'"]
+
+[start]
+cmd = "npx --yes serve . -p ${PORT:-3000} -s"
